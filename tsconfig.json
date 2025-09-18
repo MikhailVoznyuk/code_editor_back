@@ -10,6 +10,7 @@
     "module": "nodenext",
     "target": "esnext",
     "types": [],
+    "outDir": "dist/",
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -39,6 +40,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }
